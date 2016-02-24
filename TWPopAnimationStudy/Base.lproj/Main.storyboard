@@ -21,15 +21,25 @@
                                 <rect key="frame" x="20" y="275" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRe-10-a5J">
+                                <rect key="frame" x="165" y="175" width="88" height="31"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXd-iX-gZY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="iRe-10-a5J" id="UCc-03-HTd"/>
                         <outlet property="testView1" destination="nOu-Ek-43D" id="Drc-Ta-KBW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="436"/>
         </scene>
     </scenes>
 </document>
